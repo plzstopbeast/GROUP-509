@@ -1,0 +1,11 @@
+if card[1] == "+2":
+            print(f"{'Computer' if is_player else 'You'} must draw 2 cards and skip turn!")
+            if is_player:
+                self.draw_cards(self.computer_hand, 2)
+            else:
+                self.draw_cards(self.player_hand, 2)
+            self.skip_next = True
+        else:
+            self.skip_next = False
+
+    def play(self):
