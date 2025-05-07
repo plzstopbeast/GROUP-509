@@ -82,12 +82,13 @@ class UnoGame:
         self.deck = Deck()
         self.players = [Player(name) for name in self.player_names]
         
+        self.turn_index = 0
+        self.turn_direction = 1
+        
         while True:
             self.top_card = self.deck.draw()
             if self.top_card.value not in ["Wild", "Draw Four"]:
-                break
-            self.turn_direction = 1
-            self.turn_index = 0
+                break  
         for player in self.players:
             player.draw_card(self.deck,5)
 
