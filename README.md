@@ -12,3 +12,12 @@ How To Play Game -
 Wild - Select Any Color, Draw Four - Next Player Draws Four, Reverse - Goes Back
 To player prior, Draw Two - Next Player Draws Two, Skip - Skips next players turn
 8. Winner is determined to player who doesn't have anymore card.
+
+
+Annotated Bibliography -
+https://www.geeksforgeeks.org/enumerate-in-python/ - Explains and how to use
+the enumerate() function properly.
+
+https://www.w3schools.com/python/ref_list_extend.asp - Explains the functionality
+of the .extend() method.
+
