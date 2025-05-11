@@ -212,7 +212,7 @@ class UnoGame:
             self.turn_index += self.turn_direction
         elif card.value == "Reverse":
             self.turn_direction *= -1
-
+            self.turn_index += self.turn_direction
         elif card.value == "Draw Two":
             next_player = self.players[(self.turn_index + self.turn_direction) % len(self.players)]
             next_player.draw_card(self.deck, 2)
