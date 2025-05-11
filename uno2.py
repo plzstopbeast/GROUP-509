@@ -210,15 +210,19 @@ class UnoGame:
         """
         if card.value == "Skip":
             self.turn_index += self.turn_direction
+            print(f"{self.players[(self.turn_index) % len(self.players)].name} was skipped")
         elif card.value == "Reverse":
             self.turn_direction *= -1
             self.turn_index += self.turn_direction
+            print("Direction was Reversed!")
         elif card.value == "Draw Two":
             next_player = self.players[(self.turn_index + self.turn_direction) % len(self.players)]
             next_player.draw_card(self.deck, 2)
+            print(f"{next_player.name} draws 2 cards!")
         elif card.value == "Draw Four":
             next_player = self.players[(self.turn_index + self.turn_direction) % len(self.players)]
             next_player.draw_card(self.deck, 4)
+            print(f"{next_player.name} draws 4 cards!")
         elif card.value == "Wild":
            while True:
                new_color = input(f"{self.current_player().name}, choose a color (Red, Green, Blue, Yellow): ").capitalize()
