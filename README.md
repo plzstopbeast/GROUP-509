@@ -15,9 +15,9 @@ To player prior, Draw Two - Next Player Draws Two, Skip - Skips next players tur
 
 
 Annotated Bibliography -
-https://www.geeksforgeeks.org/enumerate-in-python/ - Explains and how to use
-the enumerate() function properly.
+GeeksforGeeks. “Enumerate() in Python.” GeeksforGeeks, 20 Jan. 2025, www.geeksforgeeks.org/enumerate-in-python.
+ - Explains and how to use the enumerate() function properly.
 
-https://www.w3schools.com/python/ref_list_extend.asp - Explains the functionality
-of the .extend() method.
+W3Schools.com. www.w3schools.com/python/ref_list_extend.asp.
+- Explains the functionality of the .extend() method.
 
