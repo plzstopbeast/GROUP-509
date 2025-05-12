@@ -9,7 +9,7 @@ How To Play Game -
 5. Shows Players Hand(Cards that player has) 
 6. Has a arrow near card that can be used
 7. Special Cards(Wild, Draw Four, Reverse, Draw Two, Skip)
-Wild - Select Any Color, Draw Four - Next Player Draws Four, Reverse - Goes Back
+Wild - Select Any Color (Blue, Yellow, Green, Red), Draw Four - Next Player Draws Four, Reverse - Goes Back
 To player prior, Draw Two - Next Player Draws Two, Skip - Skips next players turn
 8. Winner is determined to player who doesn't have anymore card.
 
