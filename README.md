@@ -1,6 +1,3 @@
-Added new chang
-Added new features pointer showing on cards that will work
-
 How To Play Game -
 1. Run program - Going on Terminal - Typing - python3 uno2.py
 2. Select number of players to play up to 4
