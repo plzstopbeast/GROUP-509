@@ -18,3 +18,12 @@ GeeksforGeeks. “Enumerate() in Python.” GeeksforGeeks, 20 Jan. 2025, www.gee
 W3Schools.com. www.w3schools.com/python/ref_list_extend.asp.
 - Explains the functionality of the .extend() method.
 
+Attributions
+Method/Function |     Author     | Techniques Demonstrated
+Card.__repr__   , Mezzaiah Cooper , Magic Method (repr) for string representation
+Card.matches    , Muntasir Rahman , Conditional Expression
+Deck.__init__   , Dana Balbuena   , Comprehension Expression
+Player.draw_card, Mezzaiah Cooper , Optional Parameter - drawing number of cards
+Player.play_card, Mezzaiah Cooper   , F String for displaying cards
+UnoGame , Samuel Adu , Composition of two custom classes
+UnoGame.play_turn, Samuel Adu, Handling user input for game progression
